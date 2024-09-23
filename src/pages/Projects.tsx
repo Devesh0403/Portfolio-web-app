@@ -14,7 +14,7 @@ import { IoIosUndo } from "react-icons/io";
 
 const projectsData=[{
     title:"Legal Bharat",
-    image:"src/assets/legal-bharat.jpeg",
+    image:"./assets/legal-bharat.jpeg",
     desc:"Legal Bharat is a comprehensive web application designed to provide easy access to legal services and resources across India. The platform aims to bridge the gap between legal professionals and individuals seeking legal assistance.",
     skills:[{
         name:"React",
@@ -39,7 +39,7 @@ const projectsData=[{
     }]
 },{
     title:"Chill Club",
-    image:"src/assets/chill-club.jpeg",
+    image:"./assets/chill-club.jpeg",
     desc:"Chill Club is a Pomodoro-based productivity app designed to help users manage their time efficiently while maintaining a sense of relaxation and balance.",
     skills:[{
         name:"Tailwind",

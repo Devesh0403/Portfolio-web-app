@@ -24,11 +24,11 @@ const Home=()=>{
     }
     const Services=[{
         title:"I focus heavily on UI/UX. I like to create visually appealing web apps that aligns with the brand goals and strategies",
-        svg:"src/assets/design.png",
+        svg:"./assets/design.png",
         
     },{
         title:"I can help improve your engagement, through web apps that blend functionality with aesthetic appeal.",
-        svg:'src/assets/social-media.png',
+        svg:'./assets/social-media.png',
         
     }]
     
@@ -55,7 +55,7 @@ const Home=()=>{
             </div>
 
             <div className="">
-                <img src="src/assets/photo.jpeg" alt="your"  className=" rounded-2xl w-[300px] h-[300px] border"/>
+                <img src="./assets/photo.jpeg" alt="your"  className=" rounded-2xl w-[300px] h-[300px] border"/>
                 <div className="mt-[2rem] flex flex-row justify-center gap-[2rem] text-4xl">
 
                 <a href=""><FaLinkedin/></a>

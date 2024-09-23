@@ -35,7 +35,7 @@ const Contact=()=>{
 
 
         <div className=" grid grid-cols-2 gap-[3rem] md:flex md:flex-row md:gap-[2rem] w-[50%] m-auto  justify-center">
-
+        <></>
     
     
     {socialMediaData.map((socialMedia, index) => (

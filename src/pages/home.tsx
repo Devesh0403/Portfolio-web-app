@@ -24,11 +24,11 @@ const Home=()=>{
     }
     const Services=[{
         title:"I focus heavily on UI/UX. I like to create visually appealing web apps that aligns with the brand goals and strategies",
-        svg:"./assets/design.png",
+        svg:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121103/design_wqxdks.png",
         
     },{
         title:"I can help improve your engagement, through web apps that blend functionality with aesthetic appeal.",
-        svg:'./assets/social-media.png',
+        svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121102/social-media_uryxmk.png',
         
     }]
     
@@ -55,7 +55,7 @@ const Home=()=>{
             </div>
 
             <div className="">
-                <img src="./assets/photo.jpeg" alt="your"  className=" rounded-2xl w-[300px] h-[300px] border"/>
+                <img src="https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121102/photo_lwnqnj.jpg" alt="your"  className=" rounded-2xl w-[300px] h-[300px] border"/>
                 <div className="mt-[2rem] flex flex-row justify-center gap-[2rem] text-4xl">
 
                 <a href=""><FaLinkedin/></a>

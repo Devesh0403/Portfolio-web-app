@@ -39,7 +39,7 @@ const projectsData=[{
     }]
 },{
     title:"Chill Club",
-    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/chill-club_mllrez.jpgg",
+    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/chill-club_mllrez.jpg",
     desc:"Chill Club is a Pomodoro-based productivity app designed to help users manage their time efficiently while maintaining a sense of relaxation and balance.",
     skills:[{
         name:"Tailwind",

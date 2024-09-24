@@ -30,6 +30,10 @@ const Home=()=>{
         title:"I can help improve your engagement, through web apps that blend functionality with aesthetic appeal.",
         svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121102/social-media_uryxmk.png',
         
+    },{
+        title:"I am actively seeking remote work and freelance opportunities to collaborate on innovative projects.",
+        svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727161510/Task-bro_t8qr4t.png',
+        
     }]
     
 
@@ -77,14 +81,15 @@ const Home=()=>{
 
 
         <Skills/>
-   <div className="flex flex-col w-[60%] gap-[5rem] m-auto mt-[5rem]">
+    <h1 className=" mt-[5rem] font-bold font-rubik text-4xl inline-block m-auto">Services</h1>
+   <div className="flex flex-col md:flex-row w-[60%] gap-[5rem] m-auto mt-[2rem]">
 
   {Services.map((service, index) => {
       return (
-          <div key={index} className=" flex flex-col md:flex-row  gap-[2rem] md:gap-[3rem] items-center font-bold font-doodle">
+          <div key={index} className=" flex flex-col   gap-[2rem] md:gap-[3rem] items-center m-auto font-bold font-doodle">
         
           <img src={service.svg} className="h-[200px] w-[200px] " alt="" />
-        <h1 className="font-bold text-center">{service.title}</h1>
+        <h1 className="font-bold text-center w-[300px]">{service.title}</h1>
         
       </div>
     );

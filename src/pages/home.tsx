@@ -24,15 +24,15 @@ const Home=()=>{
     }
     const Services=[{
         title:"I focus heavily on UI/UX. I like to create visually appealing web apps that aligns with the brand goals and strategies",
-        svg:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121103/design_wqxdks.png",
+        svg:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727162005/UI-UX_design-amico_j8s4ol.png",
         
     },{
         title:"I can help improve your engagement, through web apps that blend functionality with aesthetic appeal.",
-        svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121102/social-media_uryxmk.png',
+        svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727162010/Social_tree-cuate_2_n2kzjd.png',
         
     },{
         title:"I am actively seeking remote work and freelance opportunities to collaborate on innovative projects.",
-        svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727161510/Task-bro_t8qr4t.png',
+        svg:'https://res.cloudinary.com/dqgrwjod2/image/upload/v1727162001/Task-bro_1_qsifhs.png',
         
     }]
     
@@ -82,11 +82,11 @@ const Home=()=>{
 
         <Skills/>
     <h1 className=" mt-[5rem] font-bold font-rubik text-4xl inline-block m-auto">Services</h1>
-   <div className="flex flex-col md:flex-row w-[60%] gap-[5rem] m-auto mt-[2rem]">
+   <div className="flex flex-col lg:flex-row  gap-[5rem] m-auto mt-[3rem] mb-[5rem]">
 
   {Services.map((service, index) => {
       return (
-          <div key={index} className=" flex flex-col   gap-[2rem] md:gap-[3rem] items-center m-auto font-bold font-doodle">
+          <div key={index} className=" flex flex-col   gap-[2rem] md:gap-[3rem] items-center m-auto font-bold font-rubik">
         
           <img src={service.svg} className="h-[200px] w-[200px] " alt="" />
         <h1 className="font-bold text-center w-[300px]">{service.title}</h1>

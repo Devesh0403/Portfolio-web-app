@@ -12,11 +12,13 @@ const Contact=()=>{
         name:"Twitter",
         logo:<FaXTwitter/>,
         link:"https://x.com/Tuli2Tuli"
-    },{
-        name:"LinkedIn",
-        logo:<FaLinkedin/>,
-        link:""
-    },{
+    },
+    // {
+    //     name:"LinkedIn",
+    //     logo:<FaLinkedin/>,
+    //     link:""
+    // },
+    {
         name:"Github",
         logo:<FaGithub/>,
         link:"https://github.com/Devesh0403"

@@ -33,19 +33,19 @@ const Contact=()=>{
         <div className="text-center">
         <h1 className="font-bold text:4xl text-5xl font-rubik mb-[2rem]">CONTACT ME</h1>
 
+      <div className="grid grid-cols-2 gap-[3rem] md:flex md:flex-row md:gap-[2rem] w-[70%] m-auto justify-center items-center">
+  {/* Empty fragment removed since it has no content */}
+  
+  {socialMediaData.map((socialMedia, index) => (
+    <div key={index} className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] p-[4px] transition-transform duration-300 transform hover:scale-110 border border-transparent hover:border-black rounded-xl flex items-center justify-center">
+      <a href={socialMedia.link} target="_blank" className="flex items-center justify-center text-9xl">
+        {socialMedia.logo}
+      </a>
+    </div>
+  ))}
 
-        <div className=" grid grid-cols-2 gap-[3rem] md:flex md:flex-row md:gap-[2rem] w-[50%] m-auto  justify-center">
-        <></>
-    
-    
-    {socialMediaData.map((socialMedia, index) => (
-        <div key={index} className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] p-[4px] transition-transform duration-300 transform hover:scale-110 border border-transparent hover:border-black rounded-xl flex items-center justify-center">
-    <a href={socialMedia.link} className="flex items-center justify-center text-8xl md:text-9xl">
-      {socialMedia.logo}
-    </a>
-  </div>
-))}
 
+        
             
 
 

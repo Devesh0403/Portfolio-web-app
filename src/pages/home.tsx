@@ -81,7 +81,7 @@ const Home=()=>{
 
   {Services.map((service, index) => {
       return (
-          <div key={index} className=" flex flex-col md:flex-row gap-[3rem] items-center font-bold font-rubik">
+          <div key={index} className=" flex flex-col md:flex-row  gap-[2rem] md:gap-[3rem] items-center font-bold font-doodle">
         
           <img src={service.svg} className="h-[200px] w-[200px] " alt="" />
         <h1 className="font-bold text-center">{service.title}</h1>

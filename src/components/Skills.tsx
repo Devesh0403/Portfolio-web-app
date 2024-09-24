@@ -42,9 +42,9 @@ const Skills = () => {
   ]
 
   return (
-    <div className="mx-auto flex flex-col w-[70%] font-rubik ">
+    <div className="mx-auto flex flex-col w-[60%] font-rubik ">
       {/* Heading */}
-      <div className="px-[50px] sm:px-[75px] text-4xl tracking-wider mob1:text-base mb-[3rem] md:text-md font-semibold text-center pt-10  ">
+      <div className="px-[50px] sm:px-[75px] text-2xl md:text-4xl tracking-wider mob1:text-base mb-[3rem] md:text-md font-semibold text-center pt-10  ">
         My Tech Stack
       </div>
 

@@ -62,7 +62,7 @@ const Home=()=>{
                 <img src="https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121102/photo_lwnqnj.jpg" alt="your"  className=" rounded-2xl w-[300px] h-[300px] border"/>
                 <div className="mt-[2rem] flex flex-row justify-center gap-[2rem] text-4xl">
 
-                {/* <a href=""><FaLinkedin/></a> */}
+                <a href="https://www.linkedin.com/in/devesh-tuli-b4696932a/"><FaLinkedin/></a>
                 <a href="https://github.com/Devesh0403"><FaGithub/></a>
                 <a href="https://x.com/Tuli2Tuli"><FaXTwitter/></a>
                 <a href="https://medium.com/@deveshtuli02"><FaMediumM/></a>

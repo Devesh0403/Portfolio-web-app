@@ -49,7 +49,7 @@ const Home=()=>{
         
         <div className="flex flex-col  ">
 
-            <div className=" flex md:flex-row flex-col-reverse   m-auto  justify-center gap-[3rem] items-center w-screen h-[75vh]   bg-home     ">
+            <div className=" flex md:flex-row flex-col-reverse mt-[3rem] md:mt-0  m-auto  justify-center gap-[3rem] items-center w-screen h-[75vh]   bg-home     ">
                 <div className="text-center mr-[1rem]">
                 <h2 className=" font-rubik text-xl">Hey! I'm</h2>
                 <h1 className="font-rubik text-5xl md:text-7xl"> Devesh</h1>

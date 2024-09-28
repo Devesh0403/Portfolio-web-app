@@ -13,7 +13,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { IoIosUndo } from "react-icons/io";
 
 const projectsData=[{
-    title:"Legal Bharat",
+    title:"Legal-Bharat",
     image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/legal-bharat_flrfpa.jpg",
     desc:"Legal Bharat is a comprehensive web application designed to provide easy access to legal services and resources across India. The platform aims to bridge the gap between legal professionals and individuals seeking legal assistance.",
     skills:[{
@@ -38,7 +38,7 @@ const projectsData=[{
         svg:<SiExpress/>
     }]
 },{
-    title:"Chill Club",
+    title:"Chill-Club",
     image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/chill-club_mllrez.jpg",
     desc:"Chill Club is a Pomodoro-based productivity app designed to help users manage their time efficiently while maintaining a sense of relaxation and balance.",
     skills:[{
@@ -59,7 +59,32 @@ const projectsData=[{
         svg:<FaHtml5/>
     }
 ]
-}]
+},{
+    title:"Scriptify",
+    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727499672/Screenshot_2024-09-28_at_9.44.37_AM_fj6tbc.png",
+    desc:"Scriptify is an innovative tool designed to enhance your YouTube experience by providing accurate transcripts and concise summaries of video content.",
+    skills:[{
+        name:"TypeScript",
+        svg:<TbBrandTypescript/>
+        
+    },
+    {
+        name:"NodeJS",
+        svg:<RiNodejsLine/>
+    },
+    {
+        name:"Express",
+        svg:<SiExpress/>
+    },
+   {
+        name:"Tailwind",
+        svg:<RiTailwindCssFill/>
+    },
+    
+]
+
+}
+]
 
 
 

@@ -61,7 +61,7 @@ const projectsData=[{
 ]
 },{
     title:"Scriptify",
-    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727499672/Screenshot_2024-09-28_at_9.44.37_AM_fj6tbc.png",
+    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727852076/Screenshot_2024-10-01_at_2.49.35_PM_rjhkfy.jpg",
     desc:"Scriptify is an innovative tool designed to enhance your YouTube experience by providing accurate transcripts and concise summaries of video content.",
     skills:[{
         name:"TypeScript",

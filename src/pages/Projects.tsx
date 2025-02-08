@@ -76,6 +76,10 @@ const projectsData=[{
         name:"JavaScript",
         svg:<IoLogoJavascript/>
 
+    },,{
+        name:"Materail-Ui",
+        svg:<IoLogoJavascript/>
+
     }]
 },{
     title:"Chill-Club",
@@ -122,7 +126,23 @@ const Projects = () => {
             <p className="font-doodle text-xl">{project.desc}</p>
             <div className=" flex flex-row gap-[1rem] p-[1rem]  text-4xl md:text-5xl text-center m-auto ">
               {project.skills.map((skill, index) => (
-                  <div key={index} className="w-[50px] h-[50px] md:h-[60px] md:w-[60px] flex justify-center items-center    backdrop-blur-lg border rounded-2xl transition-transform duration-300 hover:scale-110">{skill.name=="Material-Ui"?:skill.svg}</div>
+                  <div
+                  key={index}
+                  className="w-[50px] h-[50px] md:h-[60px] md:w-[60px] flex justify-center items-center backdrop-blur-lg border rounded-2xl transition-transform duration-300 hover:scale-110"
+                >
+                  {skill.name === "Material-Ui" ? (
+                    // If the skill name is Material-Ui, render the Material UI logo using an image link
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Material-UI_logo.svg" // Material UI logo URL
+                      alt="Material UI"
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    // Otherwise, render the SVG
+                    skill.svg
+                  )}
+                </div>
+                
                 ))}
             </div>
             </div>

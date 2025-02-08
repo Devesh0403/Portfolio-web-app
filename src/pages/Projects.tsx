@@ -34,31 +34,9 @@ const projectsData=[{
         name:"MongoDB",
         svg:<SiMongodb/>
     },{
-        name:"React",
+        name:"Express",
         svg:<SiExpress/>
     }]
-},{
-    title:"Chill-Club",
-    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/chill-club_mllrez.jpg",
-    desc:"Chill Club is a Pomodoro-based productivity app designed to help users manage their time efficiently while maintaining a sense of relaxation and balance.",
-    skills:[{
-        name:"Tailwind",
-        svg:<RiTailwindCssFill/>
-    },
-    {
-        name:"JavaScript",
-        svg:<IoLogoJavascript/>
-
-    },
-    {
-        name:"CSS",
-        svg:<FaCss3Alt/>
-    },
-    {
-        name:"HTML",
-        svg:<FaHtml5/>
-    }
-]
 },{
     title:"Scriptify",
     image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727852076/Screenshot_2024-10-01_at_2.49.35_PM_rjhkfy.jpg",
@@ -83,6 +61,39 @@ const projectsData=[{
     
 ]
 
+},{
+    title:"Playora",
+    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1738953638/Screenshot_2025-02-07_at_9.41.37_PM_fetjly.png",
+    desc:"Playora is a modern and responsive YouTube clone built using React.js and Material UI. It provides a seamless video streaming experience with an intuitive and aesthetically pleasing user interface.",
+    skills:[{
+        name:"React",
+        svg:<FaReact/>
+    },{
+        name:"Tailwind",
+        svg:<RiTailwindCssFill/>
+    }]
+},{
+    title:"Chill-Club",
+    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/chill-club_mllrez.jpg",
+    desc:"Chill Club is a Pomodoro-based productivity app designed to help users manage their time efficiently while maintaining a sense of relaxation and balance.",
+    skills:[{
+        name:"Tailwind",
+        svg:<RiTailwindCssFill/>
+    },
+    {
+        name:"JavaScript",
+        svg:<IoLogoJavascript/>
+
+    },
+    {
+        name:"CSS",
+        svg:<FaCss3Alt/>
+    },
+    {
+        name:"HTML",
+        svg:<FaHtml5/>
+    }
+]
 }
 ]
 

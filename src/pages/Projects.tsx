@@ -76,8 +76,8 @@ const projectsData=[{
         name:"JavaScript",
         svg:<IoLogoJavascript/>
 
-    },,{
-        name:"Materail-Ui",
+    },{
+        name:"Material-Ui",
         svg:<IoLogoJavascript/>
 
     }]

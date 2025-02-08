@@ -12,6 +12,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoIosUndo } from "react-icons/io";
 
+
 const projectsData=[{
     title:"Legal-Bharat",
     image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1727121101/legal-bharat_flrfpa.jpg",
@@ -71,6 +72,10 @@ const projectsData=[{
     },{
         name:"Tailwind",
         svg:<RiTailwindCssFill/>
+    },{
+        name:"JavaScript",
+        svg:<IoLogoJavascript/>
+
     }]
 },{
     title:"Chill-Club",
@@ -117,7 +122,23 @@ const Projects = () => {
             <p className="font-doodle text-xl">{project.desc}</p>
             <div className=" flex flex-row gap-[1rem] p-[1rem]  text-4xl md:text-5xl text-center m-auto ">
               {project.skills.map((skill, index) => (
-                  <div key={index} className="w-[50px] h-[50px] md:h-[60px] md:w-[60px] flex justify-center items-center    backdrop-blur-lg border rounded-2xl transition-transform duration-300 hover:scale-110">{skill.svg}</div>
+                  <div
+                  key={index}
+                  className="w-[50px] h-[50px] md:h-[60px] md:w-[60px] flex justify-center items-center backdrop-blur-lg border rounded-2xl transition-transform duration-300 hover:scale-110"
+                >
+                  {skill.name === "Material-Ui" ? (
+                    // If the skill name is Material-Ui, render the Material UI logo using an image link
+                    <img
+                      src="https://res.cloudinary.com/dqgrwjod2/image/upload/v1738998593/png-transparent-material-ui-logo-thumbnail_gtpdpw.png" // Material UI logo URL
+                      alt="Material UI"
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    // Otherwise, render the SVG
+                    skill.svg
+                  )}
+                </div>
+                
                 ))}
             </div>
             </div>

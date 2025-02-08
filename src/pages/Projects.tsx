@@ -133,7 +133,7 @@ const Projects = () => {
                   {skill.name === "Material-Ui" ? (
                     // If the skill name is Material-Ui, render the Material UI logo using an image link
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Material-UI_logo.svg" // Material UI logo URL
+                      src="https://res.cloudinary.com/dqgrwjod2/image/upload/v1738998593/png-transparent-material-ui-logo-thumbnail_gtpdpw.png" // Material UI logo URL
                       alt="Material UI"
                       className="w-full h-full object-contain"
                     />

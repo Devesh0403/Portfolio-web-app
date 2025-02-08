@@ -11,6 +11,8 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoIosUndo } from "react-icons/io";
+import { SiNetlify } from "react-icons/si";
+import { IoLogoVercel } from "react-icons/io5";
 
 
 const projectsData=[{
@@ -59,6 +61,11 @@ const projectsData=[{
         name:"Tailwind",
         svg:<RiTailwindCssFill/>
     },
+    {
+        name:"Vercel",
+        svg:<IoLogoVercel />
+    }
+    
     
 ]
 
@@ -69,17 +76,21 @@ const projectsData=[{
     skills:[{
         name:"React",
         svg:<FaReact/>
-    },{
-        name:"Tailwind",
-        svg:<RiTailwindCssFill/>
-    },{
+    },
+    {
         name:"JavaScript",
         svg:<IoLogoJavascript/>
-
+        
     },{
         name:"Material-Ui",
         svg:<IoLogoJavascript/>
 
+    },{
+        name:"Tailwind",
+        svg:<RiTailwindCssFill/>
+    },{
+        name:"Netlify",
+        svg:<SiNetlify />
     }]
 },{
     title:"Chill-Club",
@@ -133,9 +144,9 @@ const Projects = () => {
                   {skill.name === "Material-Ui" ? (
                     // If the skill name is Material-Ui, render the Material UI logo using an image link
                     <img
-                      src="https://res.cloudinary.com/dqgrwjod2/image/upload/v1738999832/Screenshot_2025-02-08_at_12.59.56_PM_kyuhzp.png" // Material UI logo URL
+                      src="https://res.cloudinary.com/dqgrwjod2/image/upload/v1738999972/Screenshot_2025-02-08_at_12.59.56_PM_kyuhzp.png" // Material UI logo URL
                       alt="Material UI"
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain p-2"
                     />
                   ) : (
                     // Otherwise, render the SVG

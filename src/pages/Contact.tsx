@@ -16,7 +16,7 @@ const Contact=()=>{
     {
         name:"LinkedIn",
         logo:<FaLinkedin/>,
-        link:""
+        link:"https://www.linkedin.com/in/devesh297/"
     },
     {
         name:"Github",

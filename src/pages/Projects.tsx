@@ -76,6 +76,10 @@ const projectsData=[{
         name:"JavaScript",
         svg:<IoLogoJavascript/>
 
+    },{
+        name:"Material-Ui",
+        svg:<IoLogoJavascript/>
+
     }]
 },{
     title:"Chill-Club",

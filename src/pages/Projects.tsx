@@ -63,8 +63,7 @@ const projectsData=[{
 
 },{
     title:"Playora",
-    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1738953638/Screenshot_2025-02-07_at_9.41.37_PM_fetjly.png",
-    desc:"Playora is a modern and responsive YouTube clone built using React.js and Material UI. It provides a seamless video streaming experience with an intuitive and aesthetically pleasing user interface.",
+    image:"https://res.cloudinary.com/dqgrwjod2/image/upload/v1738994119/Screenshot_2025-02-08_at_11.24.40_AM_g1scoi.png",
     skills:[{
         name:"React",
         svg:<FaReact/>

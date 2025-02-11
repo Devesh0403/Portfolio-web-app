@@ -16,6 +16,10 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { FaFigma } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiCanva } from "react-icons/si";
+import { SiNetlify } from "react-icons/si";
+import { IoLogoVercel } from "react-icons/io5";
+import { FaBootstrap } from "react-icons/fa";
+import { SiZod } from "react-icons/si";
 
 
 
@@ -29,15 +33,20 @@ const Skills = () => {
     { name: 'Express', logo: <SiExpress size={50} /> },
     { name: 'MongoDB', logo: <SiMongodb size={50} /> },
     { name: 'JavaScript', logo: <IoLogoJavascript size={50} /> },
+    { name: 'C++', logo: <TbBrandCpp size={50} /> },
     {name:'Github',logo:<FaGithub size={50} /> } ,
     { name: 'HTML', logo: <FaHtml5 size={50} /> },
     { name: 'CSS', logo: <FaCss3Alt size={50} /> },
+    {name: 'Zod', logo: <SiZod size={50} /> },
     { name: 'Postgres', logo: <BiLogoPostgresql size={50} /> },
+    {name: 'Vercel', logo: <IoLogoVercel size={50} /> },
+    {name: 'Netlify', logo: <SiNetlify size={50} /> },
+    {name: 'Bootstrap', logo: <FaBootstrap size={50} /> },
     { name: 'JQuery', logo: <DiJqueryLogo size={50} /> },
-    { name: 'C++', logo: <TbBrandCpp size={50} /> },
     { name: 'Python', logo: <FaPython size={50} /> },
     { name: 'Figma', logo: <FaFigma size={50} /> },
-    {name: 'Canva', logo: <SiCanva size={50} /> }
+    {name: 'Canva', logo: <SiCanva size={50} /> },
+
    
   ]
 
